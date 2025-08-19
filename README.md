@@ -25,8 +25,7 @@ Quais clientes já quitaram a própria casa e têm empréstimos vigentes?
 ## Primeira Etapa
 ### Coletar, processar e armazenar dados no BigQuery
 
-A TheLook Fintech é uma nova empresa de tecnologia financeira que faz empréstimos a proprietários de lojas on-line independentes que precisam de recursos financeiros para adquirir estoque. A missão da empresa é mudar a forma como as pessoas têm acesso a empréstimos para expandir os negócios.
-
+Para iniciar a primeira etapa, analisei a fonte de dados no BigQuery, identificando as principais colunas para construir as análises. Foi fornecido um arquivo CSV que mapeia os estados dos EUA em regiões e sub-regiões. Realizei a importação do arquivo do Cloud Storage para o BigQuery, assim criando uma nova tabela chamada state_region.  
 
 
 ## Segunda Etapa
