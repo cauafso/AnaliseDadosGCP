@@ -1,4 +1,4 @@
-# AnaliseDadosGCP
+# Projeto Final Google Cloud Data Analytics
 Projeto final do curso Google Cloud Data Analytics
 
 ## Cenário
@@ -11,7 +11,7 @@ Como monitorar melhor nosso fluxo de caixa para garantir que o volume dos empré
 Como identificar os principais motivos que levam os clientes a pegar empréstimos conosco?
 Como rastrear os locais onde os mutuários estavam quando contrataram os empréstimos?
 
-Minha segunda atribuição é desenvolver um dashboard para ajudar a equipe a aproveitar ao máximo os dados de integridade dos empréstimos e ter acesso rápido e fácil às informações de que precisam.
+Minha segunda etapa é desenvolver um dashboard para ajudar a equipe a aproveitar ao máximo os dados de integridade dos empréstimos e ter acesso rápido e fácil às informações de que precisam.
 
 Foram identificadas quatro perguntas de negócios importantes que sempre surgem quando a equipe discute a integridade dos empréstimos.
 
@@ -25,8 +25,27 @@ Quais clientes já quitaram a própria casa e têm empréstimos vigentes?
 ## Primeira Etapa
 ### Coletar, processar e armazenar dados no BigQuery
 
-Para iniciar a primeira etapa, analisei a fonte de dados no BigQuery, identificando as principais colunas para construir as análises. Foi fornecido um arquivo CSV que mapeia os estados dos EUA em regiões e sub-regiões. Realizei a importação do arquivo do Cloud Storage para o BigQuery, assim criando uma nova tabela chamada state_region.  
+**Processo de análise da Primeira Etapa**
 
+1. Analisei o conjunto de dados para descobrir quais variáveis utilizar na análise.
+2. Importei um arquivo CSV, contendo informações sobre estados, regiões e sub_regiões dos EUA, do Cloud Storage para o BigQuery, criando uma nova tabela chamada state_region.
+3. Realizei a junção das tabelas empréstimos(Loan) e a tabela sobre regiões(state_region).
+4. Realizei uma query para retornar linhas únicas dos motivos de empréstimos dos clientes.
+5. Realizei uma query para retornar o valor total dos empréstimos por ano.
+6. Realizei uma query para retornar o total de empréstimos feitos por ano.
+  
+Atráves dessa análise temos o matérial necessário para responder as perguntas de negócio da primeira etapa.
 
 ## Segunda Etapa
 ### Analisar e ativar dados com o Looker Enterprise
+
+**Processo de criação do Dashboard**
+
+1. Criei uma visualização de visão geral sobre o valor pendente de empréstimos.
+2. Criei um gráfico de pizza para representar os dados de porcentagem, para termos um dimensão do todo.
+3. Optei por um gráfico de barras verticais para a visualização dos estados com maior quantidade de empréstimos, para termos a imagem de ranking.
+4. Optei em criar uma tabela para demonstrar os dados requeridos dos clientes.
+
+
+
+
