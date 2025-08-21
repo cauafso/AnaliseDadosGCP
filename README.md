@@ -46,8 +46,10 @@ Atráves dessa análise temos o matérial necessário para responder as pergunta
 3. Optei por um gráfico de barras verticais para a visualização dos estados com maior quantidade de empréstimos, para termos a imagem de ranking.
 4. Optei em criar uma tabela para demonstrar os dados requeridos dos clientes.
 
-## Conclusão
+## Conclusão ✔️
+
+A análise permitiu identificar as principais métricas e objetivos pedidos pela equipe financeira da TheLook Fintech, juntamente com uma visualização simples e eficiente. Esse projeto me ajudou a aprofundar conceitos como consultas SQL, utilização de ferramentas Google Cloud e conceitos em análise de dados.
 
 ## Ferramentas 🛠️
 
-**Looker Enterprise** - **BigQuery** - **Cloud Storage**
+**Looker Enterprise** - **BigQuery** - **Cloud Storage** 
