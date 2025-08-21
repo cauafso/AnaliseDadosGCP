@@ -46,6 +46,8 @@ Atráves dessa análise temos o matérial necessário para responder as pergunta
 3. Optei por um gráfico de barras verticais para a visualização dos estados com maior quantidade de empréstimos, para termos a imagem de ranking.
 4. Optei em criar uma tabela para demonstrar os dados requeridos dos clientes.
 
+## Conclusão
 
+## Ferramentas 🛠️
 
-
+**Looker Enterprise** - **BigQuery** - **Cloud Storage**
