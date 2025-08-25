@@ -1,5 +1,4 @@
 # Projeto Final Google Cloud Data Analytics ☁️
-Projeto final do curso Google Cloud Data Analytics
 
 ## Cenário 📝
 
